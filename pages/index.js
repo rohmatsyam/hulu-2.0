@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 
 export default function Home() {
   return (
@@ -6,11 +7,12 @@ export default function Home() {
       <Head>
         <title>Hulu 2.0</title>
       </Head>
-      <h1 className="text-center text-2xl font-bold">Oke</h1>
+            
       {/* Header */}
+      <Header/>
 
       {/* Nav */}
-      
+
       {/* Result */}
     </div>
   )
