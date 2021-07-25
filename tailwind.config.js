@@ -10,5 +10,7 @@ module.exports = {
       animation: ['hover', 'group-hover'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
