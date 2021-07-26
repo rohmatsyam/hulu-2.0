@@ -1,8 +1,9 @@
-const Results = ({results}) => {
-    console.log(results);
+import Thumbnail from "./Thumbnail"
+
+const Results = ({results}) => {        
     return (
-        <div>
-            
+        <div className="px-5 my-10 sm:grid md:grid-cols-2 xl:grid-cols-3">            
+            {results.map((result,key)=><Thumbnail key={key} data={result}/>)}            
         </div>
     )
 }
